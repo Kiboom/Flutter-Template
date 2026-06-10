@@ -1,0 +1,34 @@
+name: template
+description: "플러터 앱을 처음 만드는 학생을 위한 기본 템플릿."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  go_router: ^16.0.0
+  http: ^1.2.0
+  gaimon: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # iOS 빌드 속도 문제로 SwiftPM 대신 CocoaPods를 사용한다 (프로젝트 단위 설정).
+  config:
+    enable-swift-package-manager: false
+
+  # 이미지·폰트 같은 에셋을 추가하려면 아래 주석을 풀고 경로를 적는다.
+  # assets:
+  #   - assets/images/

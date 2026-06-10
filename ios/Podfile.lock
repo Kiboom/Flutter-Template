@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - gaimon (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - gaimon (from `.symlinks/plugins/gaimon/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  gaimon:
+    :path: ".symlinks/plugins/gaimon/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  gaimon: d47cb3bc6226329cf6c6730c0d2e8062f05d1527
+
+PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
+
+COCOAPODS: 1.16.2

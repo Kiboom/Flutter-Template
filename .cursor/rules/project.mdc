@@ -1,0 +1,14 @@
+---
+description: 프로젝트 단일 정본 규칙 (AGENTS.md) + 스킬 안내
+alwaysApply: true
+---
+
+이 프로젝트의 모든 규칙은 @AGENTS.md 를 따른다. (단일 정본)
+
+`.claude/skills/` 에 작업별 플레이북이 있다. 해당하는 작업을 할 때는 먼저 그 스킬의 `SKILL.md`를 읽고 따른다.
+
+- Dart/Flutter 코드 작성: `.claude/skills/flutter-guidelines/SKILL.md` (항상)
+- 새 화면 추가: `.claude/skills/new-page/SKILL.md`
+- Figma 디자인 구현: `.claude/skills/figma-implement/SKILL.md`
+- 코드 리뷰: `.claude/skills/multi-review/SKILL.md`
+- 버그·에러 해결: `.claude/skills/troubleshoot/SKILL.md`
